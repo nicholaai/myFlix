@@ -19,6 +19,11 @@ const Landing = React.createClass({
     event.preventDefault();
     this.context.router.transitionTo('/search');
   },
+  handleBrowseAllClick (event) {
+    event.preventDefault();
+    this.props.dispatchSetSearchTerm('');
+    this.context.router.transitionTo('/search');
+  },
   render () {
     return (
       <div className='landing'>
@@ -31,7 +36,7 @@ const Landing = React.createClass({
             placeholder='Search'
           />
         </form>
-        <Link to='/search'>or Browse All</Link>
+        <Link to='/search' onClick={this.handleBrowseAllClick}>or Browse All</Link>
       </div>
     );
   }
