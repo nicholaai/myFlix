@@ -1,10 +1,8 @@
-# A Complete Intro to React
+# myFlix
 
-Welcome to a complete intro to React! The site actual workshop material for this repo can be found [here][gh-page]. On the master branch you will find the completed project. On the start branch you will find the barebones boilerplater of the project designed to help you get started.
-
-## Contributing
-
-Please contribute, file issues, and make PRs. More than anything I'm sure there are typos abounding.
+This project is based off a workshop given by Brian holt which can be found [here][gh-page].
+This project displays info about popular Netflix shows. Technologies used include
+React, Redux, Async Redux, React Router 4, preact, Node, and Express (server side rendering).
 
 ## License
 
